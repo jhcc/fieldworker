@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Field Worker</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="edit_fuel_tank">Enter Tank Number</string>
+    <string name="button_next">Next</string>
+    <string name="edit_employee_name">Employee Name</string>
+    <string name="edit_employee_id">Employee ID</string>
+    <string name="edit_equipment_number">Equipment Number</string>
+    <string name="edit_odometer_hour_reading">Odometer / Hour Reading</string>
+    <string name="heading_fuel_log">Fuel Log</string>
+    <string name="heading_fuel_tank">Fuel Tank</string>
+    <string name="button_sync">Sync</string>
+    <string name="edit_beginning_meter">Beginning Meter</string>
+    <string name="edit_ending_meter">Ending Meter</string>
+    <string name="edit_gallons">Gallons</string>
+    <string name="edit_emplyee_number">Employee Number</string>
+    <string name="button_save_to_device">Save to device</string>
+    <string name="heading_fuel_log_manual_entry">Fuel Log - Manual Entry</string>
+    <string name="edit_ticket_number">Ticket Number</string>
+    <string name="edit_employee_initials">Employee Initials</string>
+    <string name="edit_tank_number">Tank Number</string>
+    <string name="edit_ticket_date">Ticket Date</string>
+    <string name="edit_date_format_example">mm/dd/yyyy</string>
+    <string name="edit_ticket_date_example">Ticket Date (mm/dd/yyyy)</string>
+    <string name="heading_forms">Forms</string>
+</resources>
