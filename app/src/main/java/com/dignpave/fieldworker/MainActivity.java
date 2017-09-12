@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, FuelLogManualEntryActivity.class);
         startActivity(intent);
     }
+
+    public void toUnsyncedTicketsActivity(View view) {
+        Intent intent = new Intent(this, UnsyncedTicketsActivity.class);
+        startActivity(intent);
+    }
 }

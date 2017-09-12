@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context="com.dignpave.fieldworker.MainActivity">
 
+    <Button
+        android:id="@+id/buttonUnsyncedTickets"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="toUnsyncedTicketsActivity"
+        android:text="@string/heading_unsynced_tickets"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFuelLog" />
 
     <Button
         android:id="@+id/buttonFuelLog"
