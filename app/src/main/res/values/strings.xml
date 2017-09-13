@@ -25,5 +25,6 @@
     <string name="edit_ticket_date_example">Ticket Date (mm/dd/yyyy)</string>
     <string name="heading_forms">Forms</string>
     <string name="heading_unsynced_tickets">Unsynced Tickets</string>
+    <string name="button_sync_tickets">Sync tickets</string>
 
 </resources>

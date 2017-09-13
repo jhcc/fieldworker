@@ -18,7 +18,9 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFuelLog" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonSyncTickets"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
 
     <Button
         android:id="@+id/buttonFuelLog"
@@ -26,13 +28,15 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="16dp"
         android:onClick="toFuelLogActivity"
         android:text="@string/heading_fuel_log"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFuelLogManualEntry" />
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextForms"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
 
     <Button
         android:id="@+id/buttonFuelLogManualEntry"
@@ -40,13 +44,15 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="16dp"
         android:onClick="toFuelLogManualEntryActivity"
         android:text="@string/heading_fuel_log_manual_entry"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextForms" />
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFuelLog"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
 
     <EditText
         android:id="@+id/editTextForms"
@@ -62,5 +68,19 @@
         android:clickable="false"
         android:cursorVisible="false"
         android:focusable="false"
-        android:focusableInTouchMode="false" />
+        android:focusableInTouchMode="false"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/buttonSyncTickets"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_sync_tickets"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFuelLogManualEntry" />
+
 </android.support.constraint.ConstraintLayout>
